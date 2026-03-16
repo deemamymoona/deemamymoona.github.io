@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education - Deema Mymoona</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <div class="sidebar-item home-icon" onclick="navigateWithTransition('index.html')" title="Home">
+                <i class="fas fa-home"></i>
+            </div>
+            <div class="sidebar-item profile-icon" onclick="navigateWithTransition('about.html')" title="About">
+                <i class="fas fa-user"></i>
+            </div>
+            <div class="sidebar-item education-icon active" title="Education">
+                <i class="fas fa-graduation-cap"></i>
+            </div>
+            <div class="sidebar-item skills-icon" onclick="navigateWithTransition('skills.html')" title="Skills">
+                <i class="fas fa-star"></i>
+            </div>
+            <div class="sidebar-item portfolio-icon" onclick="navigateWithTransition('experience.html')" title="Experience">
+                <i class="fas fa-briefcase"></i>
+            </div>
+            <div class="sidebar-item services-icon" onclick="navigateWithTransition('projects.html')" title="Projects">
+                <i class="fas fa-folder-open"></i>
+            </div>
+            <div class="sidebar-item contact-icon" onclick="navigateWithTransition('contact.html')" title="Contact">
+                <i class="fas fa-envelope"></i>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content about-page">
+            <div class="about-container">
+                <!-- Header -->
+                <div class="about-header">
+                    <h2 class="about-title">Education</h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <!-- Education Content -->
+                <div class="education-layout">
+                    <!-- Left Section - Education Info -->
+                    <div class="education-column education-column-left">
+                        <!-- M.Tech Card -->
+                        <div class="education-highlight-card">
+                            <div class="edu-card-content">
+                                <h3>M.Tech Computational Linguistics</h3>
+                                <p class="institution">Government Engineering College Sreekrishapuram, Palakkad</p>
+                                <p class="duration"><i class="fas fa-calendar"></i> 2025 - Present</p>
+                            </div>
+                        </div>
+
+                        <!-- B.Tech Card -->
+                        <div class="education-highlight-card">
+                            <div class="edu-card-content">
+                                <h3>B.Tech Computer Science and Engineering</h3>
+                                <p class="institution">MEA Engineering College, Perinthalmanna</p>
+                                <p class="duration"><i class="fas fa-calendar"></i> 2021 - 2025</p>
+                                <h3 class="achievement-heading">Key Achievements</h3>
+                                <ul class="achievement-list-edu">
+                                    <li>CGPA: 8.90</li>
+                                    <li>Academic Awards: Scholarship Winner</li>
+                                    <li>Research Publications: Paper published in ICCSCE 2025 conference</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Achievements
+                        <div class="achievements-edu">
+                            <h3>Key Achievements</h3>
+                            <ul class="achievement-list-edu">
+                                <li>Outstanding Academic Performance with distinction</li>
+                              
+                                
+                                <li>Research publication in NLP conference</li>
+                                <li>Scholarship recipient for academic excellence</li>
+                            </ul>
+                        </div> -->
+
+                    </div>
+
+                    <!-- Right Section - Bio and Highlights -->
+                    <div class="education-column education-column-right">
+                        <!-- Bio Section -->
+                        <div class="bio-section-education">
+                            <h3>Academic Journey</h3>
+                            <p>I am currently pursuing an M.Tech in Computational Linguistics at Government Engineering College, Sreekrishnapuram (GECSKP), where my work focuses on Natural Language Processing and deep learning-based language models. I completed my B.Tech with a CGPA of 8.90, building a strong foundation in computational and analytical problem-solving. I have been recognized as a scholarship award recipient for academic performance, and my research work has been published in the ICCSCE 2025 conference.</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

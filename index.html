@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deema Mymoona - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container snap-layout">
+
+        <!-- ── Sidebar ── -->
+        <div class="sidebar">
+            <div class="sidebar-item home-icon active" id="nav-home" onclick="scrollToSection('home')" title="Home">
+                <i class="fas fa-home"></i>
+            </div>
+            <div class="sidebar-item profile-icon" id="nav-about" onclick="scrollToSection('about')" title="About">
+                <i class="fas fa-user"></i>
+            </div>
+            <div class="sidebar-item education-icon" id="nav-education" onclick="scrollToSection('education')" title="Education">
+                <i class="fas fa-graduation-cap"></i>
+            </div>
+            <div class="sidebar-item skills-icon" id="nav-skills" onclick="scrollToSection('skills')" title="Skills">
+                <i class="fas fa-star"></i>
+            </div>
+            <div class="sidebar-item portfolio-icon" id="nav-experience" onclick="scrollToSection('experience')" title="Experience">
+                <i class="fas fa-briefcase"></i>
+            </div>
+            <div class="sidebar-item services-icon" id="nav-projects" onclick="scrollToSection('projects')" title="Projects">
+                <i class="fas fa-folder-open"></i>
+            </div>
+            <div class="sidebar-item contact-icon" id="nav-contact" onclick="scrollToSection('contact')" title="Contact">
+                <i class="fas fa-envelope"></i>
+            </div>
+        </div>
+
+        <!-- ── Snap Scroll Container ── -->
+        <div class="snap-container" id="snap-container">
+
+            <!-- ═══ 1. HOME ═══ -->
+            <section class="snap-section" id="home">
+                <div class="main-content">
+                    <div class="content-wrapper">
+                        <h1 class="name">Deema Mymoona</h1>
+                        <div class="subtitle">
+                            I'm <span class="animated-text">M.Tech Computational Linguistics Scholar</span><span class="cursor">|</span>
+                        </div>
+                        <div class="social-links">
+                            <a href="https://www.linkedin.com/in/deema-mymoona" target="_blank" class="social-icon">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="https://github.com/deemamymoona" target="_blank" class="social-icon">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ═══ 2. ABOUT ═══ -->
+            <section class="snap-section" id="about">
+                <div class="main-content about-page">
+                    <div class="about-container">
+                        <div class="about-header">
+                            <h2 class="about-title">About</h2>
+                            <div class="title-underline"></div>
+                        </div>
+                        <div class="about-content">
+                            <div class="profile-image-container">
+                                <div class="profile-image-placeholder">
+                                    <i class="fas fa-user-circle"></i>
+                                </div>
+                            </div>
+                            <div class="details-section">
+                                <div class="info-grid">
+                                    <div class="info-item">
+                                        <span class="info-label">Birthday:</span>
+                                        <span class="info-value">04 January 2003</span>
+                                    </div>
+                                    <div class="info-item">
+                                        <span class="info-label">Degree:</span>
+                                        <span class="info-value">Master's</span>
+                                    </div>
+                                    <div class="info-item">
+                                        <span class="info-label">Email:</span>
+                                        <span class="info-value">deemaafsal@gmail.com</span>
+                                    </div>
+                                    <div class="info-item">
+                                        <span class="info-label">Phone:</span>
+                                        <span class="info-value">7736743832</span>
+                                    </div>
+                                </div>
+                                <div class="bio-section">
+                                    <p>I'm a dedicated M.Tech student with a passion for technology and continuous learning. With a strong foundation in computer science, I'm building my expertise in software development, design, and mentoring. I believe in lifelong learning and contributing to the tech community.</p>
+                                    <p>My journey in technology has equipped me with strong problem-solving abilities, creativity, and a commitment to excellence in tackling challenging projects.</p>
+                                </div>
+                                <div class="cta-buttons">
+                                    <button class="btn btn-primary">Download CV</button>
+                                    <button class="btn btn-secondary" onclick="scrollToSection('contact')">Contact Me</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ═══ 3. EDUCATION ═══ -->
+            <section class="snap-section" id="education">
+                <div class="main-content about-page">
+                    <div class="about-container">
+                        <div class="about-header">
+                            <h2 class="about-title">Education</h2>
+                            <div class="title-underline"></div>
+                        </div>
+                        <div class="education-layout">
+                            <div class="education-column education-column-left">
+                                <div class="education-highlight-card">
+                                    <div class="edu-card-content">
+                                        <h3>M.Tech Computational Linguistics</h3>
+                                        <p class="institution">Government Engineering College Sreekrishapuram, Palakkad</p>
+                                        <p class="duration"><i class="fas fa-calendar"></i> 2025 - Present</p>
+                                    </div>
+                                </div>
+                                <div class="education-highlight-card">
+                                    <div class="edu-card-content">
+                                        <h3>B.Tech Computer Science and Engineering</h3>
+                                        <p class="institution">MEA Engineering College, Perinthalmanna</p>
+                                        <p class="duration"><i class="fas fa-calendar"></i> 2021 - 2025</p>
+                                        <h3 class="achievement-heading">Key Achievements</h3>
+                                        <ul class="achievement-list-edu">
+                                            <li>CGPA: 8.90</li>
+                                            <li>Academic Awards: Scholarship Winner</li>
+                                            <li>Research Publications: Paper published in ICCSCE 2025 conference</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="education-column education-column-right">
+                                <div class="bio-section-education">
+                                    <h3>Academic Journey</h3>
+                                    <p>I am currently pursuing an M.Tech in Computational Linguistics at Government Engineering College, Sreekrishnapuram (GECSKP), where my work focuses on Natural Language Processing and deep learning-based language models. I completed my B.Tech with a CGPA of 8.90, building a strong foundation in computational and analytical problem-solving. I have been recognized as a scholarship award recipient for academic performance, and my research work has been published in the ICCSCE 2025 conference.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ═══ 4. SKILLS ═══ -->
+            <section class="snap-section" id="skills">
+                <div class="main-content about-page">
+                    <div class="about-container">
+                        <div class="about-header">
+                            <h2 class="about-title">Skills</h2>
+                            <div class="title-underline"></div>
+                        </div>
+                        <div class="skills-content">
+                            <div class="skills-card">
+                                <div class="skills-column">
+                                    <h3 class="skills-category">Programming</h3>
+                                    <div class="skills-badges">
+                                        <span class="skill-badge">Python</span>
+                                        <span class="skill-badge">HTML</span>
+                                        <span class="skill-badge">CSS</span>
+                                        <span class="skill-badge">JavaScript</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skills-card">
+                                <div class="skills-column">
+                                    <h3 class="skills-category">AI / NLP</h3>
+                                    <div class="skills-badges">
+                                        <span class="skill-badge">Natural Language Processing (NLP)</span>
+                                        <span class="skill-badge">Machine Learning</span>
+                                        <span class="skill-badge">Deep Learning</span>
+                                        <span class="skill-badge">Transformer Models</span>
+                                        <span class="skill-badge">Text Processing</span>
+                                        <span class="skill-badge">Sequence Modeling</span>
+                                        <span class="skill-badge">Behavioral Biometrics</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skills-card">
+                                <div class="skills-column">
+                                    <h3 class="skills-category">Libraries &amp; Frameworks</h3>
+                                    <div class="skills-badges">
+                                        <span class="skill-badge">NumPy</span>
+                                        <span class="skill-badge">Pandas</span>
+                                        <span class="skill-badge">Scikit-learn</span>
+                                        <span class="skill-badge">PyTorch</span>
+                                        <span class="skill-badge">NLTK</span>
+                                        <span class="skill-badge">spaCy</span>
+                                        <span class="skill-badge">HuggingFace Transformers</span>
+                                        <span class="skill-badge">Matplotlib</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skills-card">
+                                <div class="skills-column">
+                                    <h3 class="skills-category">Tools</h3>
+                                    <div class="skills-badges">
+                                        <span class="skill-badge">VS Code</span>
+                                        <span class="skill-badge">PyCharm</span>
+                                        <span class="skill-badge">Git</span>
+                                        <span class="skill-badge">GitHub</span>
+                                        <span class="skill-badge">Jupyter Notebook</span>
+                                        <span class="skill-badge">Google Colab</span>
+                                        <span class="skill-badge">Figma</span>
+                                        <span class="skill-badge">Canva</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ═══ 5. EXPERIENCE ═══ -->
+            <section class="snap-section" id="experience">
+                <div class="main-content about-page">
+                    <div class="about-container">
+                        <div class="about-header">
+                            <h2 class="about-title">Experience</h2>
+                            <div class="title-underline"></div>
+                        </div>
+                        <div class="experience-content snap-row">
+                            <article class="experience-card">
+                                <div class="experience-header">
+                                    <h3 class="experience-title"><i class="fas fa-laptop-code"></i>Open Source Development Intern (Virtual Program)</h3>
+                                    <p class="experience-company">Indian Institute of Technology Ropar – Vicharanashala Lab</p>
+                                    <p class="experience-duration"><i class="fas fa-calendar"></i> February 2026 - Present</p>
+                                </div>
+                                <div class="experience-body">
+                                    Participating in a virtual internship program focused on learning full-stack web development and open-source development practices using MERN stack technologies.
+                                </div>
+                                <div class="experience-tech">
+                                    <h4>Technologies Used</h4>
+                                    <div class="experience-badges">
+                                        <span class="experience-badge">JavaScript</span>
+                                        <span class="experience-badge">TypeScript</span>
+                                        <span class="experience-badge">React</span>
+                                        <span class="experience-badge">MongoDB</span>
+                                        <span class="experience-badge">Express.js</span>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="experience-card">
+                                <div class="experience-header">
+                                    <h3 class="experience-title"><i class="fas fa-briefcase"></i>Software Engineer</h3>
+                                    <p class="experience-company">Pro26</p>
+                                    <p class="experience-duration"><i class="fas fa-calendar"></i> October 2025 - Present</p>
+                                </div>
+                                <div class="experience-body">
+                                    Currently contributing to the development of a MedTech platform by assisting with frontend updates and supporting backend and API-related tasks within the development team.
+                                </div>
+                                <div class="experience-tech">
+                                    <h4>Technologies Used</h4>
+                                    <div class="experience-badges">
+                                        <span class="experience-badge">Flutter</span>
+                                        <span class="experience-badge">Node.js</span>
+                                        <span class="experience-badge">React</span>
+                                        <span class="experience-badge">Docker</span>
+                                        <span class="experience-badge">Git</span>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ═══ 6. PROJECTS ═══ -->
+            <section class="snap-section" id="projects">
+                <div class="main-content about-page">
+                    <div class="about-container">
+                        <div class="about-header">
+                            <h2 class="about-title">Projects</h2>
+                            <div class="title-underline"></div>
+                        </div>
+                        <div class="projects-grid snap-row">
+                            <div class="project-card">
+                                <div class="project-card-header">
+                                    <div class="project-icon">
+                                        <i class="fas fa-heartbeat"></i>
+                                    </div>
+                                    <div class="project-meta">
+                                        <h3 class="project-title">DocConnect – AI-Powered Telehealth Platform</h3>
+                                        <div class="project-info-row">
+                                            <span class="project-duration"><i class="fas fa-calendar"></i> Jul 2024 – Mar 2025</span>
+                                            <span class="project-role"><i class="fas fa-user-tie"></i> Team Leader</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="project-description">An AI healthcare platform integrating chatbot assistance, skin disease prediction, doctor appointment scheduling, and emergency services.</p>
+                                <div class="project-contributions">
+                                    <h4 class="contributions-heading">Key Contributions</h4>
+                                    <ul class="contributions-list">
+                                        <li>Implemented CNN-based skin disease prediction with 92.6% accuracy</li>
+                                        <li>Integrated Google Gemini API for AI medical queries</li>
+                                        <li>Built doctor appointment booking and ambulance service features</li>
+                                        <li>Developed Django admin portal for doctors and appointments</li>
+                                    </ul>
+                                </div>
+                                <div class="project-badges">
+                                    <span class="project-badge">Python</span>
+                                    <span class="project-badge">Django</span>
+                                    <span class="project-badge">Flutter</span>
+                                    <span class="project-badge">CNN</span>
+                                    <span class="project-badge">Google Gemini API</span>
+                                    <span class="project-badge">HTML</span>
+                                    <span class="project-badge">CSS</span>
+                                    <span class="project-badge">JavaScript</span>
+                                </div>
+                            </div>
+                            <div class="project-card">
+                                <div class="project-card-header">
+                                    <div class="project-icon">
+                                        <i class="fas fa-keyboard"></i>
+                                    </div>
+                                    <div class="project-meta">
+                                        <h3 class="project-title">Transformer-Based Keystroke Dynamics Authentication System</h3>
+                                        <div class="project-info-row">
+                                            <span class="project-duration"><i class="fas fa-calendar"></i> 2025 – Present</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="project-description">A behavioral biometric authentication system that identifies users based on typing rhythm using transformer-based sequence modeling.</p>
+                                <div class="project-contributions">
+                                    <h4 class="contributions-heading">Key Contributions</h4>
+                                    <ul class="contributions-list">
+                                        <li>Captured millisecond-level keystroke timing data</li>
+                                        <li>Implemented Transformer-based sequence modeling</li>
+                                        <li>Built multi-imposter testing framework</li>
+                                        <li>Developed adaptive threshold authentication mechanism</li>
+                                        <li>Comparing performance with SVM and Random Forest</li>
+                                    </ul>
+                                </div>
+                                <div class="project-badges">
+                                    <span class="project-badge">Python</span>
+                                    <span class="project-badge">PyTorch</span>
+                                    <span class="project-badge">Transformers</span>
+                                    <span class="project-badge">Machine Learning</span>
+                                    <span class="project-badge">Behavioral Biometrics</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ═══ 7. CONTACT ═══ -->
+            <section class="snap-section" id="contact">
+                <div class="main-content about-page">
+                    <div class="about-container">
+                        <div class="about-header">
+                            <h2 class="about-title">Contact</h2>
+                            <div class="title-underline"></div>
+                        </div>
+                        <div class="contact-layout">
+                            <div class="contact-info-card">
+                                <h3>Get in Touch</h3>
+                                <p>I'm always open to new opportunities and collaborations. Feel free to reach out!</p>
+                                <div class="contact-details">
+                                    <div class="contact-item">
+                                        <div class="contact-icon-wrap"><i class="fas fa-envelope"></i></div>
+                                        <div>
+                                            <span class="contact-label">Email</span>
+                                            <a href="mailto:deemaafsal@gmail.com" class="contact-value">deemaafsal@gmail.com</a>
+                                        </div>
+                                    </div>
+                                    <div class="contact-item">
+                                        <div class="contact-icon-wrap"><i class="fas fa-phone"></i></div>
+                                        <div>
+                                            <span class="contact-label">Phone</span>
+                                            <span class="contact-value">7736743832</span>
+                                        </div>
+                                    </div>
+                                    <div class="contact-item">
+                                        <div class="contact-icon-wrap"><i class="fas fa-map-marker-alt"></i></div>
+                                        <div>
+                                            <span class="contact-label">Location</span>
+                                            <span class="contact-value">Kerala, India</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="contact-social">
+                                    <a href="https://www.linkedin.com/in/deema-mymoona" target="_blank" class="contact-social-link"><i class="fab fa-linkedin"></i></a>
+                                    <a href="https://github.com/deemamymoona" target="_blank" class="contact-social-link"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                            <form class="contact-form">
+                                <div class="form-group">
+                                    <label for="contact-name">Name</label>
+                                    <input type="text" id="contact-name" name="name" placeholder="Your Name" autocomplete="off" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="contact-email">Email</label>
+                                    <input type="email" id="contact-email" name="email" placeholder="your@email.com" autocomplete="off" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="contact-message">Message</label>
+                                    <textarea id="contact-message" name="message" rows="4" placeholder="Your message..." required></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary contact-send-btn">Send Message</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </div><!-- end .snap-container -->
+    </div><!-- end .container -->
+
+    <script src="script.js"></script>
+</body>
+</html>
+

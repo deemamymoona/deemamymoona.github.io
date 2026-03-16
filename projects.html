@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Deema Mymoona</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <div class="sidebar-item home-icon" onclick="navigateWithTransition('index.html')" title="Home">
+                <i class="fas fa-home"></i>
+            </div>
+            <div class="sidebar-item profile-icon" onclick="navigateWithTransition('about.html')" title="About">
+                <i class="fas fa-user"></i>
+            </div>
+            <div class="sidebar-item education-icon" onclick="navigateWithTransition('education.html')" title="Education">
+                <i class="fas fa-graduation-cap"></i>
+            </div>
+            <div class="sidebar-item skills-icon" onclick="navigateWithTransition('skills.html')" title="Skills">
+                <i class="fas fa-star"></i>
+            </div>
+            <div class="sidebar-item portfolio-icon" onclick="navigateWithTransition('experience.html')" title="Experience">
+                <i class="fas fa-briefcase"></i>
+            </div>
+            <div class="sidebar-item services-icon active" title="Projects">
+                <i class="fas fa-folder-open"></i>
+            </div>
+            <div class="sidebar-item contact-icon" onclick="navigateWithTransition('contact.html')" title="Contact">
+                <i class="fas fa-envelope"></i>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content about-page">
+            <div class="about-container">
+                <!-- Header -->
+                <div class="about-header">
+                    <h2 class="about-title">Projects</h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <!-- Projects Grid -->
+                <div class="projects-grid">
+
+                    <!-- Project Card 1 -->
+                    <div class="project-card">
+                        <div class="project-card-header">
+                            <div class="project-icon">
+                                <i class="fas fa-heartbeat"></i>
+                            </div>
+                            <div class="project-meta">
+                                <h3 class="project-title">DocConnect – AI-Powered Telehealth Platform</h3>
+                                <div class="project-info-row">
+                                    <span class="project-duration"><i class="fas fa-calendar"></i> Jul 2024 – Mar 2025</span>
+                                    <span class="project-role"><i class="fas fa-user-tie"></i> Team Leader</span>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="project-description">An AI healthcare platform integrating chatbot assistance, skin disease prediction, doctor appointment scheduling, and emergency services.</p>
+                        <div class="project-contributions">
+                            <h4 class="contributions-heading">Key Contributions</h4>
+                            <ul class="contributions-list">
+                                <li>Implemented CNN-based skin disease prediction with 92.6% accuracy</li>
+                                <li>Integrated Google Gemini API for AI medical queries</li>
+                                <li>Built doctor appointment booking and ambulance service features</li>
+                                <li>Developed Django admin portal for doctors and appointments</li>
+                            </ul>
+                        </div>
+                        <div class="project-badges">
+                            <span class="project-badge">Python</span>
+                            <span class="project-badge">Django</span>
+                            <span class="project-badge">Flutter</span>
+                            <span class="project-badge">CNN</span>
+                            <span class="project-badge">Google Gemini API</span>
+                            <span class="project-badge">HTML</span>
+                            <span class="project-badge">CSS</span>
+                            <span class="project-badge">JavaScript</span>
+                        </div>
+                    </div>
+
+                    <!-- Project Card 2 -->
+                    <div class="project-card">
+                        <div class="project-card-header">
+                            <div class="project-icon">
+                                <i class="fas fa-keyboard"></i>
+                            </div>
+                            <div class="project-meta">
+                                <h3 class="project-title">Transformer-Based Keystroke Dynamics Authentication System</h3>
+                                <div class="project-info-row">
+                                    <span class="project-duration"><i class="fas fa-calendar"></i> 2025 – Present</span>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="project-description">A behavioral biometric authentication system that identifies users based on typing rhythm using transformer-based sequence modeling.</p>
+                        <div class="project-contributions">
+                            <h4 class="contributions-heading">Key Contributions</h4>
+                            <ul class="contributions-list">
+                                <li>Captured millisecond-level keystroke timing data</li>
+                                <li>Implemented Transformer-based sequence modeling</li>
+                                <li>Built multi-imposter testing framework</li>
+                                <li>Developed adaptive threshold authentication mechanism</li>
+                                <li>Comparing performance with SVM and Random Forest</li>
+                            </ul>
+                        </div>
+                        <div class="project-badges">
+                            <span class="project-badge">Python</span>
+                            <span class="project-badge">PyTorch</span>
+                            <span class="project-badge">Transformers</span>
+                            <span class="project-badge">Machine Learning</span>
+                            <span class="project-badge">Behavioral Biometrics</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
