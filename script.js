@@ -1,5 +1,5 @@
 const roles = [
-    'M.Tech Computational Linguistics Scholar',
+    'M.Tech Computational Linguistics',
     'Software Engineer',
     'UI/UX Designer',
     'AI & Machine Learning Researcher',
