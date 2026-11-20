@@ -1,8 +1,10 @@
 const roles = [
     'M.Tech Computational Linguistics Scholar',
     'Software Engineer',
-    'Designer',
-    'Mentor'
+    'UI/UX Designer',
+    'AI & Machine Learning Researcher',
+    'Mentor',
+    'Entrepreneur'
 ];
 
 const animatedText = document.querySelector('.animated-text');
@@ -185,16 +187,30 @@ if (enableCrossPageScrollNavigation) {
 // SINGLE-PAGE SNAP NAVIGATION  (index.html)
 // ════════════════════════════════════════════
 
-const snapSectionIds = ['home', 'about', 'education', 'skills', 'experience', 'projects', 'contact'];
+const snapSectionIds = [
+    'home',
+    'about',
+    'education',
+    'research-interests',
+    'publications',
+    'skills',
+    'experience',
+    'projects',
+    'ventures',
+    'contact'
+];
 
 const snapNavMap = {
-    home:       'nav-home',
-    about:      'nav-about',
-    education:  'nav-education',
-    skills:     'nav-skills',
+    home: 'nav-home',
+    about: 'nav-about',
+    education: 'nav-education',
+    'research-interests': 'nav-research-interests',
+    publications: 'nav-publications',
+    skills: 'nav-skills',
     experience: 'nav-experience',
-    projects:   'nav-projects',
-    contact:    'nav-contact'
+    projects: 'nav-projects',
+    ventures: 'nav-ventures',
+    contact: 'nav-contact'
 };
 
 /**
